@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\static\css\main.3941c588.css.map" />
+    <None Include="wwwroot\static\css\main.c734b424.css.map" />
+    <None Include="wwwroot\static\css\main.dc1d744d.css.map" />
+    <None Include="wwwroot\static\css\main.e940561b.css.map" />
+    <None Include="wwwroot\static\js\787.2ce2f2a4.chunk.js" />
+    <None Include="wwwroot\static\js\787.2ce2f2a4.chunk.js.map" />
+    <None Include="wwwroot\static\js\main.00437a22.js" />
+    <None Include="wwwroot\static\js\main.00437a22.js.map" />
+    <None Include="wwwroot\static\js\main.0bb5aaf8.js" />
+    <None Include="wwwroot\static\js\main.0bb5aaf8.js.map" />
+    <None Include="wwwroot\static\js\main.133bd9c5.js" />
+    <None Include="wwwroot\static\js\main.133bd9c5.js.map" />
+    <None Include="wwwroot\static\js\main.2508281e.js" />
+    <None Include="wwwroot\static\js\main.2508281e.js.map" />
+    <None Include="wwwroot\static\js\main.36eda761.js" />
+    <None Include="wwwroot\static\js\main.36eda761.js.map" />
+    <None Include="wwwroot\static\js\main.407c42ef.js" />
+    <None Include="wwwroot\static\js\main.407c42ef.js.map" />
+    <None Include="wwwroot\static\js\main.5625b4c1.js" />
+    <None Include="wwwroot\static\js\main.5625b4c1.js.map" />
+    <None Include="wwwroot\static\js\main.571c5736.js" />
+    <None Include="wwwroot\static\js\main.571c5736.js.map" />
+    <None Include="wwwroot\static\js\main.7274f388.js" />
+    <None Include="wwwroot\static\js\main.7274f388.js.map" />
+    <None Include="wwwroot\static\js\main.810d0f78.js" />
+    <None Include="wwwroot\static\js\main.810d0f78.js.map" />
+    <None Include="wwwroot\static\js\main.8646d3a5.js" />
+    <None Include="wwwroot\static\js\main.8646d3a5.js.map" />
+    <None Include="wwwroot\static\js\main.92d1f287.js" />
+    <None Include="wwwroot\static\js\main.92d1f287.js.map" />
+    <None Include="wwwroot\static\js\main.e106695e.js" />
+    <None Include="wwwroot\static\js\main.e106695e.js.map" />
+    <None Include="wwwroot\static\js\main.e681b0ff.js" />
+    <None Include="wwwroot\static\js\main.e681b0ff.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YUICompressor.NET" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
