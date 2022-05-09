@@ -31,7 +31,7 @@ namespace AuraIDE.Services
 
                 List<string> compileCommands = new List<string>
                 {
-                    "cargo wasm",
+                    "RUSTFLAGS='-C link-arg=-s' cargo wasm",
                     $"export RPC=\"{_auraConfig.RPC}\"",
                     $"export CHAIN_ID={_auraConfig.ChainId}",
                     $"export NODE={_auraConfig.Node}",
