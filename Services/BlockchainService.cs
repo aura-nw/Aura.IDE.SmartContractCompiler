@@ -24,7 +24,7 @@ namespace Aura.IDE.RustCompiler.Services
             try
             {
                 var balance = await _httpService.GetAsync<GetBalanceResponse>($"{_apiConfig.BlockchainAPI}/{_blockchainAPIConfig.GetBalanceApi}/{auraWalletAddress}");
-                if (balance != null && (string.IsNullOrEmpty(balance.Balances.First().Amount) || balance.Balances.First().Amount == "0"))
+                if (balance != null && (balance.Balances.Count == 0 || (string.IsNullOrEmpty(balance.Balances.First().Amount) || balance.Balances.First().Amount == "0")))
                 {
                     var response = await _httpService.PostAsync<Object, TransferResponse>(_apiConfig.TokenFaucet, new { Address = auraWalletAddress, Coins = new List<string> { coin } });
                     balance = await _httpService.GetAsync<GetBalanceResponse>($"{_apiConfig.BlockchainAPI}/{_blockchainAPIConfig.GetBalanceApi}/{auraWalletAddress}");
